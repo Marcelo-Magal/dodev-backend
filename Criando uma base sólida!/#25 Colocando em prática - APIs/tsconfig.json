@@ -1,15 +1,16 @@
 {
-  "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "outDir": "./dist",
-    "moduleResolution": "node",
-    "esModuleInterop": true
+  "compilerOptions": {  // Configurações do compilador TypeScript.
+    "target": "es6",  // Define o padrão ECMAScript de destino para o código gerado.
+    "module": "commonjs",  // Especifica o sistema de módulos a ser usado.
+    "outDir": "./dist",  // Diretório onde os arquivos compilados serão colocados.
+    "moduleResolution": "node",  // Estratégia de resolução de módulos a ser usada.
+    "esModuleInterop": true  // Habilita a interoperabilidade de módulos ES6.
   },
-  "include": [
-    "src/**/*.ts"
+  "include": [  // Lista de padrões de caminho de arquivo para incluir na compilação.
+    "src/**/*.ts"  // Inclui todos os arquivos TypeScript na pasta 'src' e subpastas.
   ],
-  "exclude": [
-    "node_modules"
+  "exclude": [  // Lista de padrões de caminho de arquivo para excluir da compilação.
+    "node_modules"  // Exclui a pasta 'node_modules'.
   ]
 }
+
