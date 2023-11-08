@@ -6,7 +6,6 @@ const dbcontext = db.AlunosDatabase();
 app.use(express.json());
 
 const port = 3000;
-const alunos = [];
 
 app.get("/alunos", async (req, res) => {
   res.status(200).send(await dbcontext.list());
